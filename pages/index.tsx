@@ -2,8 +2,12 @@
 import { Inter } from "next/font/google";
 import Navbar from "./_components/Navbar";
 import Hero from "./_components/Hero";
+import { Metadata } from "next";
 
 const inter = Inter({ subsets: ["latin"] });
+export const metadata : Metadata = {
+  title : "Collates"
+}
 
 export default function Home() {
   return (
