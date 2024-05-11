@@ -24,7 +24,7 @@ function Navbar() {
   return (
     <motion.section className='flex flex-row justify-between items-center' initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.8 , delay: 0.2 }}>
       <motion.div initial={{ x: -50 }} animate={{ x: 0 }} transition={{ duration: 0.8, delay:0.2 }}>
-        <Image src={Logo} alt="logo" width={4000} height={4000} className='w-[127px] h-[45px]' />
+        <Image src={Logo} alt="logo" width={4000} height={4000} className='invisible sm:visible w-[127px] h-[45px]' />
       </motion.div>
       <motion.div className={roboto.className}>
         <div className='flex flex-row mr-20 gap-20  justify-between items-center '>

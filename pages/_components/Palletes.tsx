@@ -52,30 +52,30 @@ function Palletes() {
   }, [colorIndex]);
 
   return (
-    <div className=" w-[32vw] h-[35vh] rounded-3xl flex flex-row shadow-2xl">
+    <div className=" w-[80vw] sm:w-[32vw] h-[35vh] rounded-3xl flex flex-row shadow-2xl">
       <motion.div
-        className={`h-full w-[8vw] rounded-l-3xl`}
+        className={`h-full w-[20vw] sm:w-[8vw] rounded-l-3xl`}
         style={{ backgroundColor: color1 }}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5 }}
       ></motion.div>
       <motion.div
-        className={`h-full w-[8vw]`}
+        className={`h-full w-[20vw] sm:w-[8vw]`}
         style={{ backgroundColor: color2 }}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5 }}
       ></motion.div>
       <motion.div
-        className={`h-full w-[8vw]`}
+        className={`h-full w-[20vw] sm:w-[8vw]`}
         style={{ backgroundColor: color3 }}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5 }}
       ></motion.div>
       <motion.div
-        className={`h-full w-[8vw] rounded-r-3xl`}
+        className={`h-full w-[20vw] sm:w-[8vw] rounded-r-3xl`}
         style={{ backgroundColor: color4 }}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}

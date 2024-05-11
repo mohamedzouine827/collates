@@ -22,7 +22,7 @@ function Navbar() {
         <Image src={Logo} alt="logo" width={4000} height={4000} className='w-[127px] h-[45px]' />
       </motion.div>
       <motion.div className={roboto.className} initial={{ x: 50 }} animate={{ x: 0 }} transition={{ duration: 0.8, delay:0.2 }}>
-        {!isSignedIn ? <Link href="/sign-in"><Button className='font-medium'>Get Started</Button></Link> : (<UserButton/>)}
+        {!isSignedIn ? <Link href="/sign-in"><Button className='font-medium invisible sm:visible'>Get Started</Button></Link> : (<UserButton/>)}
       </motion.div>
     </motion.section>
   );

@@ -29,7 +29,7 @@ function Page() {
   return (
     <div className='py-10 px-14 flex flex-col justify-center'>
       <Navbar />
-      <div className='mt-10 grid grid-cols-4 gap-4'>
+      <div className='mt-10 grid grid-cols-1 sm:grid-cols-4 gap-4'>
         {data && data.map((like, index) => (
           <div key={index}  className='flex flex-col gap-2 mb-4 items-center'><Palletes colors={like.colors.split(',')} />
           <div className='text-lg font-bold'>
